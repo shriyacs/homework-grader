@@ -1,0 +1,75 @@
+{
+    "assignments": [
+      {
+        "id": 1,
+        "title": "Math Assignment 1",
+        "dueDate": "2025-05-15T23:59:59Z",
+        "rubric": "Math Grading Rubric 1"
+      },
+      {
+        "id": 2,
+        "title": "History Essay",
+        "dueDate": "2025-05-20T23:59:59Z",
+        "rubric": "History Grading Rubric 1"
+      },
+      {
+        "id": 3,
+        "title": "Computer Science Project",
+        "dueDate": "2025-06-01T23:59:59Z",
+        "rubric": "Computer Science Grading Rubric 1"
+      }
+    ],
+    "submissions": [
+      {
+        "id": 1,
+        "assignmentId": 1,
+        "studentName": "John Doe",
+        "submittedAt": "2025-05-10T15:00:00Z",
+        "graded": false,
+        "fileUrl": "https://via.placeholder.com/150",
+        "grade": 0
+      },
+      {
+        "id": 2,
+        "assignmentId": 1,
+        "studentName": "Jane Smith",
+        "submittedAt": "2025-05-12T10:00:00Z",
+        "graded": true,
+        "fileUrl": "https://via.placeholder.com/150",
+        "grade": 85
+      },
+      {
+        "id": 3,
+        "assignmentId": 2,
+        "studentName": "Mike Johnson",
+        "submittedAt": "2025-05-18T12:00:00Z",
+        "graded": true,
+        "fileUrl": "https://via.placeholder.com/150",
+        "grade": 78
+      }
+    ],
+    "grades": [
+      {
+        "id": 1,
+        "studentName": "John Doe",
+        "assignmentId": 1,
+        "grade": 80,
+        "feedback": "Good, but needs improvement in problem 3."
+      },
+      {
+        "id": 2,
+        "studentName": "Jane Smith",
+        "assignmentId": 1,
+        "grade": 90,
+        "feedback": "Great work! You did well on problem 4."
+      },
+      {
+        "id": 3,
+        "studentName": "Mike Johnson",
+        "assignmentId": 2,
+        "grade": 85,
+        "feedback": "Essay is good, but lacks depth in the analysis."
+      }
+    ]
+  }
+  
