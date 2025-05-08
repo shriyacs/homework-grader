@@ -6,7 +6,7 @@ import StudentView from './pages/Student';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/homework-grader">
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/teacher" element={<TeacherDashboard />}/>
